@@ -13,7 +13,7 @@ CREATE TABLE Students
 	Email NVARCHAR(100) NOT NULL,
 	Phone VARCHAR(20) NULL,
 	GroupName NVARCHAR(20) NOT NULL,
-	AverageGrade [decimal](5, 2) NOT NULL,
+	AverageGrade DECIMAL(5, 2) NOT NULL,
 	SubjectNameWithMinAvarage NVARCHAR(20) NOT NULL,
 	SubjectNameWithMaxAvarage NVARCHAR(20) NOT NULL,
 );
